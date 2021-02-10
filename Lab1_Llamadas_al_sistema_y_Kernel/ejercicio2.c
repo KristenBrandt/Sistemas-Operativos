@@ -1,38 +1,24 @@
-#include<stdio.h>
-#include <stdlib.h>
-// código tomado de: http://cbasicprogram.blogspot.com/2012/05/file-copy-using-command-line-arguments.html
-
-int main(int argc,char *argv[])
-{
- FILE *fs,*ft;
- int ch;
- if(argc!=3)
- {
-  printf("Numero de argumentos invalidos.");
-  return 1;
- }
- fs=fopen(argv[1],"r");
- if(fs==NULL)
- {
-  printf("No se pudo encontrar el archivo.");
-  return 1;
- }
- ft=fopen(argv[2],"w");
- if(ft==NULL)
- {
-  printf("No se puede abrir el segundo archivo");
-  fclose(fs);
-  return 1;
- }
-
- while(1)
- {
-  ch=fgetc(fs);
-  if (feof(fs)) break;
-  fputc(ch,ft);
- }
-
- fclose(fs);
- fclose(ft);
- return 0;
+#include <stdio.h>
+//https://www.programmingc.net/index.php/en/advanced/copy-file-command-line
+int main(int argc, char *argv[]){
+    FILE *file1, *file2;
+    char ch;
+    //clrscr();
+    if(argc == 3){
+        file1 = fopen(argv[1],"r");
+        file2 = fopen(argv[2],"w");
+        do{
+            ch = fgetc(file1);
+            fputc(ch,file2);
+        }while(ch!=EOF);//EOF = End of File
+        printf("\nArchivo de %s copiado a %s", argv[1], argv[2]);
+        fclose(file1);
+        fclose(file2);
+        return 0;
+    }
+    else{
+        printf("\nNumero de argumentos invalidos");
+        printf("\nNo se logro copiar el archivo");
+        return 1;
+    }
 }
