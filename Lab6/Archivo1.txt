@@ -1,0 +1,55 @@
+Iniciando programa
+Creando threads
+Iniciando thread 3239
+3239 - Semaforo abierto con exito
+Iniciando interacion 1
+3239 - (!) Recurso tomado
+3239 - Buenos dias! Recuso usado
+Iniciando thread 3240
+3240 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3244
+3244 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3241
+3241 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3245
+3245 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3246
+3246 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3242
+3242 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3248
+3248 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3247
+3247 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3243
+3243 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3250
+3250 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3251
+3251 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3249
+3249 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3252
+3252 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3253
+3253 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3254
+3254 - Semaforo abierto con exito
+Iniciando interacion 1
+Iniciando thread 3255
+3255 - Semaforo abierto con exito
+Iniciando interacion 1
